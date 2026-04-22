@@ -7,6 +7,6 @@ const server = http.createServer((req, res) => {
   res.end('Hello DevOps');
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on port ${PORT}`);
 });
